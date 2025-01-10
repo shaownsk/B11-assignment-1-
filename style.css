@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* comon class */
+.color{
+    color: black;
+}
+
+.nav-content{
+    display: flex;
+    padding: 30px 160px;
+    justify-content: space-between;
+   
+}
+.nav-btn{
+    padding: 14px 30px;
+    color: darkcyan;
+    border-radius:8px;
+    font-weight: 700;
+    border: 3px solid darkcyan;
+}
+/* start banner */
+main{
+    padding: 0px 160px;
+}
+
+
+.banner{
+    display: flex;
+    background-color:#9de5ff ;
+    height: 550px;align-items: center;
+    padding: 0px 50px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.subtitle{
+    color: dimgray;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.title{
+    font-size: 62px;
+    line-height: 60px;    
+}
+.banner-btn{
+    padding: 10px 20px;
+    background-color: #0048ba;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+}
