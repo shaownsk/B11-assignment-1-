@@ -130,3 +130,36 @@ main{
     font-size: 30px;
     font-weight: 700;
 }
+/* start donate section */
+.donate{
+    text-align: center;
+    margin-top: 70px;
+    padding: 100px;
+}
+.amount-box{
+    display: flex;
+    justify-content: space-around;
+}
+.D-title{
+    font-size: 60px;
+    padding-bottom:20px;
+    
+}
+.taka{
+    padding: 20px 30px;
+    background-color: #addfff;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    margin: 30px 0px;
+}
+.taka:hover{
+    background-color: #fdee00;
+    color: black;
+}
+.amount-boxs input{
+    padding: 10px 450px;
+    background-color: #eaf9f5;
+    font-weight: 600;
+    border: none;
+}
