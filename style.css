@@ -41,7 +41,7 @@ main{
     padding-bottom: 15px;
 }
 .title{
-    font-size: 62px;
+    font-size: 60px;
     line-height: 60px;    
 }
 .banner-btn{
@@ -50,4 +50,63 @@ main{
     border: none;
     border-radius: 5px;
     margin-top: 25px;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* pillar section */
+.pillar {
+    margin-top: 50px ;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 900;
+    padding: 20px 0px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+   
+}
+.card{
+    height: 260px;
+    width: 250px;
+    background-color: #eaf9f5;
+    padding: 25px;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+/* vision section */
+.v-card{
+    width: 300px;
+    background-color: #5cb3ff;
+    color: black;
+    padding: 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+}
+.vcard-title{
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.Learn-More{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.vision-cards{
+    display: flex;
+    justify-content:space-between;
 }
