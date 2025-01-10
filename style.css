@@ -11,6 +11,7 @@
     display: flex;
     padding: 30px 160px;
     justify-content: space-between;
+    align-items: center;
    
 }
 .nav-btn{
@@ -110,6 +111,17 @@ main{
     display: flex;
     justify-content:space-between;
 }
+/* optional */
+.optional{
+    margin-top: 25px;
+    background-image: url(assets/quote-bg.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color:#e0ffff;
+    padding: 20px;
+    border-radius: 7px;
+    color: black;
+}
 /* start news */
 .block{
     display: flex;
@@ -133,8 +145,7 @@ main{
 /* start donate section */
 .donate{
     text-align: center;
-    margin-top: 70px;
-    padding: 100px;
+    padding: 40px 100px 0px 100px;
 }
 .amount-box{
     display: flex;
@@ -158,8 +169,26 @@ main{
     color: black;
 }
 .amount-boxs input{
-    padding: 10px 450px;
+    padding: 10px 400px;
     background-color: #eaf9f5;
     font-weight: 600;
     border: none;
+    text-align: center;
+} 
+
+.foot-title{
+    text-align: center;
+    padding: 50px;
+    
+}
+hr{
+    width: 1320px;
+    margin: 0px auto;
+}
+.foot-icon{
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
