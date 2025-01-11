@@ -24,6 +24,8 @@
 /* start banner */
 main{
     padding: 0px 160px;
+    max-width: 1216px;
+    
 }
 
 
@@ -133,7 +135,9 @@ main{
     border-radius: 10px;
     margin-top: 20px;
 }
-
+.date{
+    padding: 5px 0px;
+}
 .block>img{
     border-radius: 15px;
     height: 200px;
